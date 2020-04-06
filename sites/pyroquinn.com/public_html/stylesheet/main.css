@@ -1,0 +1,38 @@
+body {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	background-color: #000000;
+	color: #DDDDDD;
+}
+
+#container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);	
+}
+
+a {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+#findMeOn {
+	padding-top: 30px;
+}
+
+#findMeOn img {
+	height: 50px;
+}
+
+#findMeOn a {
+	margin-right: 10px;
+}
+
+#findMeOn {
+	padding-bottom: 10px;
+}
+

@@ -7,16 +7,18 @@ build:
 certbot-test:
 	@chmod +x ./webserver/register_ssl.sh
 	@sudo ./webserver/register_ssl.sh \
-								--domains "$(DOMAINS)" \
-								--email $(EMAIL) \
+								--domains "pyroquinn.com www.pyroquinn.com"
+#								--domains "kelderro.nl www.kelderro.nl" \
+								--email "info@kelderro.nl" \
 								--data-path ./webserver/certbot \
 								--staging 1
 
 certbot-prod:
 	@chmod +x ./webserver/register_ssl.sh
 	@sudo ./webserver/register_ssl.sh \
-								--domains "$(DOMAINS)" \
-								--email $(EMAIL) \
+								--domains "pyroquinn.com www.pyroquinn.com"
+#								--domains "kelderro.nl www.kelderro.nl" \
+								--email "info@kelderro.nl" \
 								--data-path ./webserver/certbot \
 								--staging 0
 
